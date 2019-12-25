@@ -16,6 +16,7 @@ namespace AutomationAll
             IWebDriver driver = new ChromeDriver();
             var url = ConfigurationSettings.AppSettings["URL"];
             driver.Url = url;
+
             driver.Quit();
         }
     }
