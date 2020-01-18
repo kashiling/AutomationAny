@@ -16,7 +16,7 @@ namespace AutomationAll
             IWebDriver driver = new ChromeDriver();
             var url = ConfigurationSettings.AppSettings["URL"];
             driver.Url = url;
-
+            // Implicit Wait
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(120);
             driver.Manage().Window.Maximize();
             var title = driver.Title;
@@ -30,6 +30,11 @@ namespace AutomationAll
             var rownumber = GetPomoogranteRowNumbe.Text;
             Assert.AreEqual("4114", rownumber);
           
+            // explicit wait
+
+
+            //fluent wait
+
 
             driver.Quit();
         }
