@@ -38,9 +38,11 @@ namespace AutomationAll
 
             driver.Quit();
         }
+
+      
+
+
     }
 
-    internal class thread
-    {
-    }
+
 }
