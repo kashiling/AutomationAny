@@ -39,7 +39,23 @@ namespace AutomationAll
             driver.Quit();
         }
 
-      
+
+        [Test]
+        public void DownloadFruitsRates()
+        {
+
+            IWebDriver driver = new ChromeDriver();
+            var url = ConfigurationSettings.AppSettings["URL"];
+            driver.Url = url;
+            // Implicit Wait
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(120);
+            driver.Manage().Window.Maximize();
+            var title = driver.Title;
+            Assert.AreEqual("???? ??????? ????? ?????, ????", title);
+
+
+
+        }
 
 
     }
