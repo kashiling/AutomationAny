@@ -54,6 +54,21 @@ namespace AutomationAll
             Assert.AreEqual("???? ??????? ????? ?????, ????", title);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        public void CheckForForkedCode()
+        {
+
+        }
+
+        /// <summary>
+        /// test22
+        /// </summary>
+        public void CheckForForkedCode2()
+        {
+
+        }
 
     }
 
