@@ -1,0 +1,15 @@
+ Volume in drive C has no label.
+ Volume Serial Number is A616-BEC2
+
+ Directory of C:\DDrive_SSD\Soham\ForkedAdityaM\AutomationAny
+
+18-04-2021  15:34    <DIR>          .
+18-04-2021  15:34    <DIR>          ..
+12-04-2021  14:38             2,581 .gitattributes
+12-04-2021  14:38             4,565 .gitignore
+12-04-2021  16:26    <DIR>          AutomationAll
+12-04-2021  14:38             1,137 AutomationAll.sln
+12-04-2021  14:47    <DIR>          packages
+18-04-2021  15:34                 0 test.txt
+               4 File(s)          8,283 bytes
+               4 Dir(s)  145,082,343,424 bytes free
